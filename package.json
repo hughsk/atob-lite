@@ -1,6 +1,6 @@
 {
   "name": "atob-lite",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Smallest/simplest possible means of using atob with both Node and browserify",
   "main": "atob-node.js",
   "browser": "atob-browser.js",
