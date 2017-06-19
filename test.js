@@ -6,6 +6,11 @@ test('atob', function(t) {
   t.end()
 })
 
+test('unicode', function(t) {
+  t.equal(atob('uuLNhh').length, 4)
+  t.end()
+})
+
 if (process.browser) test('close', function(t) {
   t.end()
   setTimeout(function() {
