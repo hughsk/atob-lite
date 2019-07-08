@@ -15,7 +15,7 @@ var decoded = atob(encoded)
 However in Node, it's done like so:
 
 ``` javascript
-var decoded = new Buffer(encoded, 'base64').toString('utf8')
+var decoded = Buffer.from(str, 'base64').toString('binary')
 ```
 
 You can easily check if `Buffer` exists and switch between the approaches
